@@ -430,6 +430,33 @@ section {
   margin-bottom: 20px;
   color: #050d18;
 }
+.resume-section-download,
+.cv-section-download {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.resume-section-download button,
+.cv-section-download button {
+	margin-bottom: 30px;
+	margin-right: 30px;
+	text-decoration: none;
+	border: 2px #149ddd solid;
+	padding: 6px 20px;
+	background-color: #173b6c;
+	transition: 0.1s ease-in-out;
+	outline: none;
+	font-weight: 600;
+	font-size: 13px;
+}
+.resume-section-download button:hover,
+.cv-section-download button:hover {
+	transition: 0.1s ease-in-out;
+	border: 2px #149ddd solid;
+	background-color: #f8f8f8;
+	text-decoration: none;
+	color: white !important;
+}
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
